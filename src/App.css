@@ -5,3 +5,47 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
+  .main{
+    background-color: #3F334D;
+    color: #C0C5C1;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  .nav-items{
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly
+  }
+  .about-container{
+    width: 80vw;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .project-container h2{
+    text-align: center;
+  }
+  .projects{
+    width: 80vw;
+    background-color: #574B60;
+    border: 5px solid #222222;
+    box-shadow: black 5px 5px 10px;
+    padding: 5px;
+    margin: 15px;
+  }
+  .project-items *,
+  .repo-items *{
+    color:#EAF0CE;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+  .project-items img{
+    border: 5px solid #222222;
+    max-width: 60%;
+    margin: auto;
+  }
+  
