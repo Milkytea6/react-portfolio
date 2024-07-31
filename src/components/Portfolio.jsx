@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Project({ projects }) {
+function Portfolio({ projects }) {
     return (
         <div className="project-container">
             <h2>Projects</h2>
@@ -26,4 +26,4 @@ function Project({ projects }) {
     )
 }
 
-export default Project;
+export default Portfolio;
