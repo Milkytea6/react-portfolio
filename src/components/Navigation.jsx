@@ -3,14 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Nav({ links }) {
     return (
-      <nav className="navbar navbar-expand-lg bg-secondary">
-        <div className="container-fluid">
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <nav className="navbar navbar-expand-lg">
+            <ul className="navbar-nav mb-2 mb-lg-0" id="navbarSupportedContent">
               {links.map((link) => link)}
             </ul>
-          </div>
-        </div>
       </nav>
     );
   };
@@ -28,7 +24,7 @@ function Navigation() {
               Contact
             </Link>,
             <Link key={4} className="nav-link text-light" to="/resume">
-              resume
+              Resume
             </Link>,
           ]}
         />

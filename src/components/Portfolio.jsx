@@ -1,6 +1,7 @@
 import { useState } from 'react';
+// import projects from '../projects'
 
-function Portfolio({ projects }) {
+function Portfolio({projects}) {
     return (
         <div className="project-container">
             <h2>Projects</h2>
