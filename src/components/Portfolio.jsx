@@ -20,7 +20,7 @@ function Portfolio({projects}) {
                     </div>
                     <div className="project-repo">
                         <a href={`https://github.com/Milkytea6/${project.name}`}>
-                            <div >
+                            <div className='repo-link'>
                                 <h3>{project.title} Repository Link</h3>
                             </div>
                         </a>

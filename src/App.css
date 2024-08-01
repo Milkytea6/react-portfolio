@@ -27,16 +27,24 @@
     align-items: center;
     
   }
-  .navbar-nav *:hover{
+  .navbar-nav *:hover,
+  .project-repo h3:hover{
     background-color: var(--secondary);
-    transform: scale(1.3);
+    transform: scale(1.2);
     }
-
+  .container {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
   .about-container{
+    margin: 50px;
     width: 80vw;
+    max-width: 565px;
     display:flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
   }
   .project-container h2{
     text-align: center;
@@ -48,21 +56,48 @@
     box-shadow: black 5px 5px 10px;
     padding: 5px;
     display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
     margin: 15px 0px;
   }
-  .project-items{
-    width: 50%;
-  }
-  a {
-    text-decoration: none;
-}
   .project-items *,
   .repo-items *{
     color: var(--high-contrast);
   }
+  .project-repo{
+    padding: 20px;
+  }
   img{
     border: 5px solid #222222;
-    max-width: 100%;
-    align-items: end;
+    max-width: 98%;
+    max-height: 500px;
+  }
+  .contact-container{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .form-container{
+    margin: 25px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+  .my-info-container{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footer-container{
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
   }
   
