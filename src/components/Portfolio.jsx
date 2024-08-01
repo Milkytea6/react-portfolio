@@ -7,19 +7,23 @@ function Portfolio({ projects }) {
             {/* .map will loop through each project and create a project div for each project. */}
             {projects.map((project) => (
                 <div className="projects" key={`${project.title}`}>
-                    <a href={`${project.websiteLink}`}>
-                        <div className="project-items">
-                            <h3>{project.title}</h3>
-                            <p>{project.description}</p>
-                            <img src={`src/assets/img/screenshots/${project.name}.png`} alt={`${project.title}`} />
-                        </div>
-                    </a>
+                    <div className="project-items">
+                        <h3>{project.title}</h3>
+                        <p>{project.description}</p>
+                    </div>
+                    <div className="project-img">
+                        <a href={`${project.websiteLink}`}>
+                            <img src={`src/assets/img/screenshots/${project.name}.png`} alt={`Link to deployed website for ${project.title}`} />
+                        </a>
 
-                    <a href={`https://github.com/Milkytea6/${project.name}`}>
-                        <div className="repo-items">
-                            <h3>{project.title} Repository Link</h3>
-                        </div>
-                    </a>
+                    </div>
+                    <div className="project-repo">
+                        <a href={`https://github.com/Milkytea6/${project.name}`}>
+                            <div >
+                                <h3>{project.title} Repository Link</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             ))}
         </div>

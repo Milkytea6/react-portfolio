@@ -7,7 +7,7 @@
   }
   .main{
     background-color: #3F334D;
-    color: #C0C5C1;
+    color: #EAF0CE;
   }
   .container{
     display: flex;
@@ -29,23 +29,27 @@
     text-align: center;
   }
   .projects{
-    width: 80vw;
+    width: 100%;
     background-color: #574B60;
     border: 5px solid #222222;
     box-shadow: black 5px 5px 10px;
     padding: 5px;
-    margin: 15px;
+    display: flex;
+    margin: 15px 0px;
   }
+  .project-items{
+    width: 50%;
+  }
+  a {
+    text-decoration: none;
+}
   .project-items *,
   .repo-items *{
-    color:#EAF0CE;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
+    color:#f6f8eb;
   }
-  .project-items img{
+  img{
     border: 5px solid #222222;
-    max-width: 60%;
-    margin: auto;
+    max-width: 100%;
+    align-items: end;
   }
   
