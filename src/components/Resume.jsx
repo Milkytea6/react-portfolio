@@ -1,5 +1,5 @@
 
-const resumeLink = 'src/assets/pdf/resume-2024.pdf';
+const resumeLink = 'assets/pdf/resume-2024.pdf';
 
 function Resume() {
     return (

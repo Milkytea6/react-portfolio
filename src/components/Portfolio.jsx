@@ -14,7 +14,7 @@ function Portfolio({projects}) {
                     </div>
                     <div className="project-img">
                         <a href={`${project.websiteLink}`}>
-                            <img src={`src/assets/img/screenshots/${project.name}.png`} alt={`Link to deployed website for ${project.title}`} />
+                            <img src={`assets/img/screenshots/${project.name}.png`} alt={`Link to deployed website for ${project.title}`} />
                         </a>
 
                     </div>
