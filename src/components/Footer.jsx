@@ -6,7 +6,7 @@ function Footer() {
 
             <div className="footer-container">
                 <h4>Created by me using React</h4>
-                <img src='/src/assets/react.svg'></img>
+                <img src='assets/react.svg'></img>
             </div>
         </div>
     )
