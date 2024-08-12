@@ -14,7 +14,6 @@ function About() {
                 <img src="src/assets/img/photo-chris.jpg"></img>
             </div>
         </div>
-
     )
 }
 export default About;
