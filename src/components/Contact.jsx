@@ -3,7 +3,7 @@ import { useState } from 'react'
 function Contact() {
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
-    const [password, setPassword] = useState('');
+    const [message, setmessage] = useState('');
 
     const handleInputChange = (e) => {
         // Getting the value and name of the input which triggered the change
@@ -11,13 +11,13 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
     
-        // Based on the input type, we set the state of either email, username, and password
+        // Based on the input type, we set the state of either email, username, and message
         if (inputType === 'email') {
           setEmail(inputValue);
         } else if (inputType === 'userName') {
           setUserName(inputValue);
         } else {
-          setPassword(inputValue);
+          setmessage(inputValue);
         }
       };
     
@@ -27,9 +27,9 @@ function Contact() {
             <h2>Enter your contact information</h2>
             <div className="form-container">
                 <form className='form'>
-                    <input value={email} onChange={handleInputChange} name="email" type="email" placeholder='email'></input>
-                    <input value={userName} onChange={handleInputChange} name="userName" type="username" placeholder='username'></input>
-                    <input value={password} onChange={handleInputChange} name="password" type="password" placeholder='password'></input>
+                    <input value={email} onChange={handleInputChange} name="email" type="email" placeholder='email...'></input>
+                    <input value={userName} onChange={handleInputChange} name="userName" type="username" placeholder='username...'></input>
+                    <textarea value={message} onChange={handleInputChange} name="message" type="message" placeholder='Enter you message here...' className='message-input' rows="4" cols="40"></textarea>
                     <button type="submit">Submit</button>
                 </form>
             </div>
