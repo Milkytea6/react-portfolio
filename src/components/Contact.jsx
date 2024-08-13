@@ -30,7 +30,7 @@ function Contact() {
                     <input value={email} onChange={handleInputChange} name="email" type="email" placeholder='email...'></input>
                     <input value={userName} onChange={handleInputChange} name="userName" type="username" placeholder='username...'></input>
                     <textarea value={message} onChange={handleInputChange} name="message" type="message" placeholder='Enter you message here...' className='message-input' rows="4" cols="40"></textarea>
-                    <button type="submit">Submit</button>
+                    <button type="submit" className='submit'>Submit</button>
                 </form>
             </div>
             <div className="my-info-container">
