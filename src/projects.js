@@ -1,9 +1,9 @@
 const projects = [
     {
-        title: "Portfolio v2",
-        description: "This is an updated portfolio I made using handlebars.",
-        websiteLink: "https://portfolio-v2-6ktr.onrender.com/",
-        name: "portfolio-v2"
+        title: "Minigame Masters",
+        description: "A website where you can create an account and earn coins by playing games.",
+        websiteLink: "https://minigame-masters.onrender.com/",
+        name: "minigame-masters",
     },
     {
         title: "Weather Dashboard",
