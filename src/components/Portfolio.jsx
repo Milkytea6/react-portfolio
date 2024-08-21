@@ -1,7 +1,7 @@
 import { useState } from 'react';
 // import projects from '../projects'
 
-function Portfolio({projects}) {
+function Portfolio({ projects }) {
     return (
         <div className="project-container">
             <h2>Projects</h2>
@@ -19,11 +19,11 @@ function Portfolio({projects}) {
 
                     </div>
                     <div className="project-repo">
-                        <a href={`https://github.com/Milkytea6/${project.name}`}>
-                            <div className='repo-link'>
-                                <h3>{project.title} Repository Link</h3>
-                            </div>
-                        </a>
+                        <div className='repo-link-div'>
+                            <a href={`https://github.com/Milkytea6/${project.name}`} className='repo-link-a'>
+                                <h3 className='repo-link'>{project.title} Repository Link</h3>
+                            </a>
+                        </div>
                     </div>
                 </div>
             ))}
