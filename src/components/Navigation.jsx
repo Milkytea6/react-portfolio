@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Nav({ links }) {
     return (
       <nav className="navbar navbar-expand-lg">
-            <ul className="navbar-nav mb-2 mb-lg-0" id="navbarSupportedContent">
+            <ul className="navbar-nav" id="navbarSupportedContent">
               {links.map((link) => link)}
             </ul>
       </nav>

@@ -11,7 +11,9 @@ function About() {
                     I want to learn how to develop websites, software, and/or games on my coding journey.
                     I am excited to see where coding can take my career and how I will evolve learning
                     these new skills.</p>
-                <img src="assets/img/photo-chris-2.jpg"></img>
+                <a href="https://github.com/Milkytea6">
+                    <img src="assets/img/photo-chris-2.jpg"></img>
+                </a>
             </div>
         </div>
     )
