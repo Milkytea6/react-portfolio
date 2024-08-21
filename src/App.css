@@ -174,3 +174,18 @@
       font-size: small;
     }
   }
+  @media (width <= 300px){
+    .header-container h1{
+      text-align: center;
+    }
+    .container h4{
+      font-size: xx-small;
+    }
+  }
+  @media (width <= 240px){
+    .container{
+      font-size: xx-small;
+      justify-content: start;
+      align-items: start;
+    }
+  }

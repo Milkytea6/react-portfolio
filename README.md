@@ -44,5 +44,5 @@ Be clear with what repository you are referring to and as much detail as posible
 ### [Link to React Protfolio Repository](https://github.com/Milkytea6/react-portfolio)
 ## E-mail <a id="email"></a>
 chrisgcpg@gmail.com
-### [React Portfolio Deployed on Netlify](https://66ba68b29028ae1340537324--earnest-salamander-246f2e.netlify.app/) 
+### [React Portfolio Deployed on Netlify](https://66c61746e0f7332249814ee6--christopher-giordano.netlify.app/) 
 ### ![Screenshot of deployed website](public/assets/img/screenshots/react-portfolio.png)
