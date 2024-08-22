@@ -6,16 +6,16 @@ const projects = [
         name: "minigame-masters",
     },
     {
+        title: "Movie Service Finder",
+        description: "This web application aims to simplify the daunting task of choosing a movie to watch on Netflix.",
+        websiteLink: "https://milkytea6.github.io/netflix-movie-picker/",
+        name: "netflix-movie-picker"
+    },
+    {
         title: "Weather Dashboard",
         description: "This weather dashboard can display the weather for today and include a 5 day forecast.",
         websiteLink: "https://milkytea6.github.io/weather-dashboard/",
         name: "weather-dashboard"
-    },
-    {
-        title: "Netflix Movie Picker",
-        description: "This web application aims to simplify the daunting task of choosing a movie to watch on Netflix.",
-        websiteLink: "https://milkytea6.github.io/netflix-movie-picker/",
-        name: "netflix-movie-picker"
     },
     {
         title: "Task Board",
