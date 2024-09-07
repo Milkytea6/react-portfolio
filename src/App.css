@@ -115,6 +115,13 @@
     flex-direction: column;
     align-items: center;
   }
+  .bootcamp-title{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .bootcamp-img{
+    border-radius: 5px;
+  }
   .contact-container{
     display: flex;
     flex-direction: column;
